@@ -12,7 +12,7 @@ def get_bmi(weight_lb: float, height_inch: float) -> float:
         Function that calculates the body mass index
     """
 
-    bmi = weight_lb / (height_inch ** 2)
+    bmi = ( weight_lb / (height_inch ** 2) ) * 703
     return bmi
 
 #main
